@@ -1,0 +1,140 @@
+:root{
+    --pertama:#6E3CBC;
+    --kedua:#7267CB;
+    --ketiga:#98BAE7;
+    --keempat:#B8E4F0;
+    --submit:#00ADB5;
+    --delete:#FF1E00;
+    --body1:#002B5B;
+    --body2:#2B4865;
+    --body3:#256D85;
+    --body4:#8FE3CF;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+header{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: var(--keempat);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+header input {
+    width: 400px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid var(--keempat);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+/* input */
+.containerInput{
+    margin: 10px 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: var(--keempat);
+    border-radius: 10px;
+}
+.containerInput h1{
+    color: var(--kelima);
+}
+.formInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formInput input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid var(--keempat);
+}
+.textP {
+    text-align: right;
+}
+.formInput textarea{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid var(--keempat);
+}
+.formInput button{
+    width: 523px;
+    padding: 10px;
+    margin-top:15px ;
+    outline: none;
+    background-color: var(--submit);
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+/* view data */
+.container-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-Data-Note{
+    width: 800px;
+    padding: 10px;
+    background-color: var(--body4);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.itemData h3{
+    color: var(--kedua);
+}
+.itemData label{
+    font-size: 12px;
+}
+.btn-container{
+    text-align: right;
+}
+.btn-container .btn-delete{
+    color: white;
+    background-color: var(--delete) ;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.btn-container .btn-move{
+    color: white;
+    background-color: var(--submit);
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+.arsip-note h2,
+.active-note h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.active-note{
+    margin: 20px 200px;
+    background-color: var(--keempat);
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.arsip-note{
+    margin: 20px 200px 50px;
+    background-color: var(--keempat);
+    border-radius: 15px;
+    padding: 10px 0;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
